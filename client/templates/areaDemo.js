@@ -28,7 +28,7 @@ for(var obj in array1){
         },
 
         title: {
-            text: 'Arduino TOLL'
+            text: 'How is Zoe?'
         },
 
         credits: {

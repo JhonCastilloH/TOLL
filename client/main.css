@@ -35,19 +35,20 @@ h6 {
 }
 
 .seccion-1 {
-    height: 600px;
+    min-height: 800px;
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     background: url('/images/forest.jpg') no-repeat center center fixed;
     background-size: cover;
-    display: inline-block;
+    position: relative;
+  display: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 
-.card {
-   padding-left: 30px;
-   padding-right: 30px;
-}
 
 
 .card-title{
@@ -67,7 +68,13 @@ h6 {
 .seccion-2 {
     background: url('http://static1.squarespace.com/static/52db21b5e4b0c2e3ce0ea5ab/t/52db2c85e4b0614bc81b45fd/1390095495299/tumblr_mg4hiodmvi1r46py4o1_1280.jpg?format=1500w') no-repeat center center fixed;
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
+    position: relative;
+  display: cover;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
 }
 
 /*section 3*/
@@ -79,12 +86,13 @@ h6 {
 
 
 .seccion-4 {
-    height: 1055px;
+
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     background: url('https://www.regonline.com/custImages/255960/EcoDebateBanner.jpg') no-repeat center center fixed;
     background-size: cover;
+    display: cover;
 
 }
 
