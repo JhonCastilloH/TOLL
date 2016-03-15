@@ -1,0 +1,320 @@
+<template name="layout">
+
+    <!-- Navigation -->
+   <nav class="navbar navbar-inverse" role="navigation">
+        <div class="col-md-12">
+          <div class="navbar-header topnav">
+            <a class="navbar-brand" href="#">John Castillo</a>
+          </div>
+
+          <ul class="nav nav-pills navbar-nav navbar-right">
+            <li role="presentation"  class="active">
+              <a href="#home">Home</a>
+            </li>
+
+            <li role="presentation">
+              <a href="#about">About</a>
+            </li>
+            <li role="presentation">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li role="presentation">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Header -->
+  <a  name="home"></a>
+  <div class="seccion-1">
+    <h1 class="text-center titles">Tree of life labs</h1>
+    <div class="row">
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Maximiliano</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol6.png" alt="Card image">
+<p class="card-text">Es quien vela por la seguridad del vecindario, y los despierta a los vecinos al notar situaciones indeseadas.</p>
+<h6 class="card-subtitle text-muted">Gardener: John Arana</h6>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Hermes</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol2.png" alt="Card image">
+<p class="card-text">Se encarga de administrar los hogares de las personas mejorando su calidad de vida.</p>
+<h6 class="card-subtitle text-muted">Gardener: Emiliano González</h6>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Lucy</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol1.png" alt="Card image">
+<p class="card-text">Ella es capáz de brindar luz en los senderos más oscuros del universo, empleando la energía de estrellas como el sol de nuestra galaxia.</p>
+<h6 class="card-subtitle text-muted">Gardener: Miller Soto</h6>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Rocio</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol9.png" alt="Card image">
+<p class="card-text">Es una amante de la naturaleza, esta pendiente de que las plantas tengan las mejores condiciones para su desarrollo.</p>
+<h6 class="card-subtitle text-muted">Gardener: Maria Clara</h6>
+</div>
+</div>
+</div>
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Meteoro</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol3.png" alt="Card image">
+<p class="card-text">Rápido y seguro al tiempo, nos acompaña durante las travesías alrededor del mundo en nuestros vehículos.</p>
+<h6 class="card-subtitle text-muted">Gardener: Emiliano de Jesus</h6>
+</div>
+</div>
+</div>
+
+<div class="col-sm-2 col-md-2">
+<div class="card">
+<div class="card-block">
+<h4 class="card-title">Mizumi</h4>
+</div>
+<div class="card-block">
+<img class="card-img-top" src="/images/arbol5.png" alt="Card image">
+<p class="card-text">Le dicen la sirena pues le encanta cuidar de los peces y de mantenerle sus mejores condiciones.</p>
+<h6 class="card-subtitle text-muted">Gardener: Fernando Sarmiento</h6>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+
+    <!-- /.intro-header -->
+
+ <!-- Page Content -->
+
+<a  name="about"></a>
+  <div class="jumbotron seccion-2 titles">
+    <div class="row">
+     <div class="col-md-6 ">
+    <h2>Tree of life labs</h2>
+    <p>
+      We are innovators and dreamers that want do of the world a better world, sowing seeds than grow up in trees(projects). <br>
+      Those seeds will be,  example for other people, than are looking the same, we want invite you to join us.
+      <br>
+      <br>
+      Somos innovadores y soñadores que quieren hacer del mundo un mundo mejor, sembrando semillas que crecen en árboles (proyectos). <br>
+      Esas semillas serán, ejemplo para otras personas, que están buscando lo mismo, queremos invitarlos a unirse a nosotros.
+    </p>
+        </div>
+       <div class="col-md-6 col-sm-6">
+         <img class="thick-green-border img-responsive imagen" src="http://www.columbiaclub.org/wp-content/uploads/Sustainable.jpg" >
+         </div>
+       </div>
+  </div>
+
+
+ <div class="seccion-3">
+     <div class="container">
+       <h2 class="text-center titles">Rocio</h2>
+
+          <div id="main">
+          {{> yield}}
+          </div>
+
+    </div>
+  </div>
+
+
+     <!-- Portfolio Grid Section -->
+<a  name="portfolio"></a>
+<div class="container">
+
+  <div class="row green-margin" >
+    <div class="col-md-4">
+      <h2>            Arduino         </h2>
+      <img class="img-responsive thumbnail" src="http://cadi-equipments.com/wp-content/uploads/650_1200306.jpg">
+      <p>
+        Electronics Proyects
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>            Meteor          </h2>
+      <img class="img-responsive thumbnail" src="http://www.thosedamnamericans.com/wp-content/uploads/2014/09/meteorjs.png">
+      <p>
+        Web and movil Development
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h2>            Education         </h2>
+      <img class="img-responsive thumbnail" src="http://mydailycomplaint.com/wp-content/uploads/2012/04/free_school_header.jpg">
+      <p>
+        Weselft Auto Learning
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  <div class="jumbotron seccion-4">
+     <div class="container">
+       <h2 class="text-center titles">Contact Us</h2>
+    <div class="row">
+      <div class="col-sm-1 col-md-1">
+         </div>
+            <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xal1/v/t1.0-9/1910397_10153992117533680_4109782174626913250_n.jpg?oh=c9373af60dcc28cc8303c69e50bd3f3f&oe=5753CF86&__gda__=1465845418_5b7fa0ce1ec721ee7547cce295eeda7e" alt="Rolo">
+      <div class="caption captionColor">
+        <h3>John Edisson Castillo</h3>
+        <p>Developer for Android and Ios natives apps, JavaScripter for node, meteor, angular and react.</p>
+        <p>Desarrollador de aplicaciones nativas de Android y iOS, JavaScripter para node, meteor, angular y react.</p>
+
+        <div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact me!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Contact Info</h3>
+        </div>
+        <div class="modal-body">
+        <p><span class="label label-warning">Name:</span> John Edisson Castillo</p>
+        <p><span class="label label-success">Mail:</span> profe.johncastillo@gmail.com</p>
+        <p><span class="label label-info">Phone:</span> (+057) 3164408400</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+       <div class="col-sm-2 col-md-2">
+         </div>
+       <div class="col-sm-4 col-lg-offset-2 col-md-4">
+    <div class="thumbnail">
+      <img src="https://scontent-atl3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12745950_1680436875553427_2085119012810005022_n.jpg?oh=10b6704b7282f5477b65dcf130c30ac0&oe=57589579" alt="Manu">
+      <div class="caption captionColor">
+        <h3>Manuel del Cristo Gonzalez</h3>
+        <p>Engineer for projects, working with arduinos, PMP management and risk.</p>
+        <p>Ingeniero de proyectos, trabajando con Arduino, PMP y gestión de riesgos.</p>
+        <div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Contact me!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Contact Info</h3>
+        </div>
+        <div class="modal-body">
+        <p><span class="label label-warning">Name:</span> Manuel del Cristo Gonzalez</p>
+        <p><span class="label label-success">Mail:</span> manueldelcristo1@gmail.com</p>
+        <p><span class="label label-info">Phone:</span> (+057) 3132717474</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+
+    </div>
+       <p class="text-center titles">Cll 181c 9-30 Bogotá</p>
+        <p class="text-center titles">Treelifelabs@gmail.com</p>
+  </div>
+
+<div>
+
+
+    <!-- /.banner -->
+</div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Licensed under the MIT license. Copyright  &copy;  2014, 2015 Tree of life labs Contributors Licensed under the MIT license.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+</template>
